@@ -21,7 +21,7 @@ require (
 	github.com/orcaman/concurrent-map v0.0.0-20190107190726-7ed82d9cb717
 	github.com/serialx/hashring v0.0.0-20180504054112-49a4782e9908
 	golang.org/x/net v0.0.0-20190311183353-d8887717615a
-	google.golang.org/grpc v1.30.0
+	google.golang.org/grpc v1.32.0
 	gopkg.in/couchbase/gocbcore.v7 v7.1.11 // indirect
 	gopkg.in/couchbaselabs/gocbconnstr.v1 v1.0.2 // indirect
 	gopkg.in/couchbaselabs/jsonx.v1 v1.0.0 // indirect
