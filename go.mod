@@ -9,9 +9,8 @@ require (
 	github.com/emirpasic/gods v1.12.0
 	github.com/gogo/protobuf v1.2.1
 	github.com/golang/lint v0.0.0-20181217174547-8f45f776aaf1 // indirect
-	github.com/golang/protobuf v1.3.3
+	github.com/golang/protobuf v1.4.1
 	github.com/golang/snappy v0.0.1 // indirect
-	github.com/google/uuid v1.1.0 // indirect
 	github.com/hashicorp/consul v1.4.2
 	github.com/hashicorp/go-cleanhttp v0.5.0 // indirect
 	github.com/hashicorp/go-rootcerts v1.0.0 // indirect
@@ -21,7 +20,7 @@ require (
 	github.com/orcaman/concurrent-map v0.0.0-20190107190726-7ed82d9cb717
 	github.com/serialx/hashring v0.0.0-20180504054112-49a4782e9908
 	golang.org/x/net v0.0.0-20190311183353-d8887717615a
-	google.golang.org/grpc v1.30.0
+	google.golang.org/grpc v1.33.2
 	gopkg.in/couchbase/gocbcore.v7 v7.1.11 // indirect
 	gopkg.in/couchbaselabs/gocbconnstr.v1 v1.0.2 // indirect
 	gopkg.in/couchbaselabs/jsonx.v1 v1.0.0 // indirect
