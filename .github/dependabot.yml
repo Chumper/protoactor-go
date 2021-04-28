@@ -1,0 +1,26 @@
+version: 2
+updates:
+- package-ecosystem: gomod
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: google.golang.org/grpc
+    versions:
+    - 1.35.0
+    - 1.36.0
+    - 1.36.1
+  - dependency-name: github.com/golang/protobuf
+    versions:
+    - 1.4.3
+    - 1.5.1
+  - dependency-name: github.com/hashicorp/consul
+    versions:
+    - 1.9.2
+    - 1.9.3
+    - 1.9.4
+  - dependency-name: github.com/Workiva/go-datastructures
+    versions:
+    - 1.0.52
